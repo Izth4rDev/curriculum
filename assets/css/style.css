@@ -1,19 +1,120 @@
+@font-face{
+    font-family: "Anta";
+    src: url("/assets/fonts/Anta/Anta-Regular.ttf") format("truetype");
+}
+
+body{
+    margin:0px;
+}
 header{
     text-align: center;
 }
 
-main{
-    padding:5rem 2rem;
+h1{
+    font-family: "Anta";
+    color:#468065;
 }
 
+main{
+    padding:5rem 2rem 0rem 2rem;
+    font-family: "Anta";
+    color: #468065;
+    /*border: 0.1px solid  #468065;*/
+    border-radius: 20px;
+}
+#banner_container{
+    flex-grow: 1;
+    padding:1rem 2rem;
+}
+/*Estilos header nombre foto*/
 #container_sub_head{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #DCFAB0;
+    padding-top:0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0.5rem;
+    border-radius: 35px 0 0 0;
     gap: 2rem;
 }
 
 #name_curriculum{
     width: 150px;
+    border-radius: 50%;
+}
+
+/*Seccion resumen y seccion datos personales*/
+
+#container_section1{
+    display: flex;
+    background-color: rgba(70, 128, 101, 1);
+    color:white;
+}
+#resumen{
+    flex-basis:60%;
+    padding-left:1rem;
+}
+#datos_personales{
+    flex-basis:40%;
+    padding-left:1rem;
+}
+
+/*Estilos secciones restantes*/
+
+#container_section2{
+    display: flex;
+    border-left: #468065 solid 1px;
+    border-right: #468065 solid 1px;
+}
+
+#container_forma_exp{
+    flex-basis: 50%;
+    padding-left:1rem;
+}
+
+#experiencia{
+    border-top: solid 1px #468065 ;
+}
+.exp_containers{
+    margin-top:3rem;
+}
+
+#habilidades{
+    flex-basis: 50%;
+    border-left: 1px solid #468065;
+    padding-left:1rem;
+}
+
+#habilidades ul li{
+    margin-top:2rem;
+}
+
+/*footer*/
+
+footer{
+    font-family: "Anta";
+    background-color: #DCFAB0;
+    margin:0rem 2rem 0rem 2rem;
+    border-top:1px solid #468065;
+    border-radius:0px 0px 0px 35px;
+}
+
+#titulo_enlace{
+    text-align: center;
+    margin:0px;
+    color:#468065;
+}
+#links{
+    padding:1rem 0rem 1rem 0rem;
+}
+
+#links ul{
+    list-style-type: none;
+    padding-left:0;
+    display: flex;
+    justify-content: center;
+    gap:0rem 3rem;
+    margin:0.5rem 0rem 0rem 0rem;
 }
 
