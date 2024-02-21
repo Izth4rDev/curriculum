@@ -1,0 +1,19 @@
+header{
+    text-align: center;
+}
+
+main{
+    padding:5rem 2rem;
+}
+
+#container_sub_head{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+#name_curriculum{
+    width: 150px;
+}
+
