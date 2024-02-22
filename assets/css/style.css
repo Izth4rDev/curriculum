@@ -35,7 +35,7 @@ main{
     padding-top:0.5rem;
     padding-bottom: 0.5rem;
     padding-left: 0.5rem;
-    border-radius: 35px 0 0 0;
+    border-radius: 35px 35px 0 0;
     gap: 2rem;
 }
 
@@ -95,9 +95,9 @@ main{
 footer{
     font-family: "Anta";
     background-color: #DCFAB0;
-    margin:0rem 2rem 0rem 2rem;
+    margin:0rem 2rem 1rem 2rem;
     border-top:1px solid #468065;
-    border-radius:0px 0px 0px 35px;
+    border-radius:0px 0px 35px 35px;
 }
 
 #titulo_enlace{
